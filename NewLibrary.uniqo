@@ -1,0 +1,23 @@
+Project:
+ Name: NewLibrary
+ ProjectNamespaceIndex: 4
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ CoreVersion: 10.0.0.79
+ Dependencies:
+  2:
+   Uri: 'urn:QPlatform:CoreBase'
+   Module: QPlatform.CoreBase
+   Version: 8.1.0.117
+  3:
+   Uri: 'urn:QPlatform:HMIProject'
+   Module: QPlatform.HMIProject
+   Version: 11.0.0.79
+  5:
+   Uri: 'urn:QPlatform:UI'
+   Module: QPlatform.UI
+   Version: 45.1.0.15
+ Nodes:
+ - File: Nodes/NewLibrary.yaml

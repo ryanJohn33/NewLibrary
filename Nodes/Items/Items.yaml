@@ -80,3 +80,15 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
+- Name: EditableLabel1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: EditableLabel1
+    Id: g=11ff0b03323efdea8dc2f4510175fa08
+    Supertype: EditableLabel
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"EditableLabel1"}
